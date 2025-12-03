@@ -25,7 +25,7 @@ We trained and evaluated four models:
 - **XGBoost + SMOTE:** Recall 91%, Precision 63% – good for catching fraud but more false positives.  
 - **Logistic Regression:** Recall 100%, Precision 9% – flags almost everything as fraud.
 
-**Conclusion:** Random Forest and Gradient Boosting are the best-performing models.
+**Conclusion:** Random Forest is the best-performing model.
 
 ## Error Analysis
 We inspected false positives and false negatives to understand where the models make mistakes. This helps improve model interpretability and trustworthiness.
